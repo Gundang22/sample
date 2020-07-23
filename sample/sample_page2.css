@@ -1,0 +1,36 @@
+.col-sm-3{
+    margin: 10px;
+    border: #E7E7E7 1px solid;
+    max-height: 480px;
+    text-align: center;
+    padding: 2%;
+}
+.row{
+    width: 90%;
+    margin: auto;
+}
+
+@media only screen and (min-width: 1259px) { 
+    .col-sm-3{
+        min-width: 15%;
+        max-width: 20%;
+    }
+}
+
+@media only screen and (min-width: 959px) and (max-width: 1259px) {
+    .col-sm-3{
+        min-width: 30%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .col-sm-3{
+        min-width: 47%;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .col-sm-3{
+        min-width: 95%;
+    }
+}

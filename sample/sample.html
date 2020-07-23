@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sample Html Page 1</title>
+        <meta charset="uft-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
+        <link href="../bootstrap-4.5.0-dist/css/bootstrap.css" rel="stylesheet">
+        <link href="../bootstrap-4.5.0-dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <link href="sample.css" rel="stylesheet">
+
+        
+    </head>
+
+    <body>
+        <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
+        <header>
+            <nav class="navbar navbar-expand-md bd-light" id="navBar">
+                <div class="navIcon">
+                    <a href="#"><img style="height:50px" src="icon.png"></a>
+                </div>
+
+                <a class="navbar-brand" href="#" style="margin-left: 50px;">Sample HTML</a>
+                <a class="nav-item" href="sample.html">Page 1</a>
+                <a class="nav-item active" href="#" style="margin-left: 20px;">Page 2<span class="sr-only"></span></a>
+            </nav>
+            <hr>
+        </header>
+        
+        <main role="main">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+                        <img src="image/1.jpg" alt="1">
+                        <div class="container">
+                            <div class="carousel-caption text-left" id="carouselCaption_1">
+                                <h1>Some Content</h1>
+                                <a class="btn btn-lg btn-primary" href="#" role="button">Button</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+                        <img src="image/2.jpg" alt="2">
+                        <div class="container">
+                            <div class="carousel-caption text-right">
+                                <p><a class="btn btn-lg btn-primary" href="#" role="button">Button</a></p>
+                                <h1>Some Content</h1>
+                                <p>Content Content Content</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+                        <img src="image/3.jpg" alt="3">
+                        <div class="container">
+                            <div class="carousel-caption text">
+                                <h1>Some Content</h1>
+                                <a class="btn btn-lg btn-primary" id="carouselButton_2" href="#" role="button">Button</a>
+                                <p>Content Content Content</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+                        <img src="image/4.webp" alt="4">
+                        <div class="container">
+                            <div class="carousel-caption text-right">
+                                <p><a class="btn btn-lg btn-primary" href="#" role="button">Button</a></p>
+                                <h1>Some Content</h1>
+                                <p>Content Content Content</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+            <div class="textContent">
+                <div class="row">
+                    <div class="col-lg-5" id="col_1" style="margin: 5%;">
+                        <h3>Content Content</h3>
+                        <h1 style="margin-left: 200px; color: #DEDEDE;">Content</h1>
+                        <p>Content Content ContentContent Content ContentContent Content ContentContent Content Content
+                            Content Content ContentContent Content ContentContent Content ContentContent Content ContentContent 
+                            Content Content ContentContent Content ContentContent Content ContentContent Content ContentContent Content
+                            Content Content ContentContent Content ContentContent Content ContentContent Content Content
+                            Content Content ContentContent Content ContentContent Content ContentContent Content Content
+                            Content Content ContentContent Content ContentContent Content ContentContent Content Content
+                            Content Content ContentContent Content ContentContent Content ContentContent Content Content
+                            Content Content ContentContent Content ContentContent Content ContentContent Content Content
+                            Content Content ContentContent Content ContentContent Content ContentContent Content Content
+                            Content Content ContentContent Content ContentContent Content ContentContent Content Content
+                            Content Content ContentContent Content ContentContent Content ContentContent Content Content.
+                            <br><br><br>
+                            <a class="btn btn-xl btn-info" href="" role="button">Details</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-4" id="col_2" style="margin: 5%">
+                        <h1>Content Content</h1>
+                        <br><br><br>
+                        <img src="image/forest.jpg" alt="forest" width="300px" height="500px">
+                    </div>
+                </div>
+                <hr class="featurette-divider">
+            </div>
+        </main>
+        <div class="footerDiv">
+            <p style="margin-left: 6%;">Copyright &copy; 2020 Gundang. All Right Reserved. <a href="#F7F7F7">Private Policy</a></p>
+        </div>
+    
+    </body>
+</html>
