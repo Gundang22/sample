@@ -13,6 +13,13 @@ a{
     width: 90%;
     margin: auto;
 }
+.back-to-top {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    display: none;
+    background-color: #7D7C7C;
+}
 
 @media only screen and (min-width: 1259px) { 
     .col-sm-3{
